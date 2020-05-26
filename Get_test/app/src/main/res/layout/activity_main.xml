@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/textView_main_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_main_name" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정류장 선택"
+        android:id="@+id/button1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/textView_main_result" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/txtResult" />
+
+</LinearLayout>
